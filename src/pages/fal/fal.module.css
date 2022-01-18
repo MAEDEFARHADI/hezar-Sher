@@ -1,0 +1,14 @@
+.container {
+    min-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-items: flex-start;
+}
+.main 
+{
+    background: url('../../assets/image/backFal.png') no-repeat;
+    background-size: cover;
+}

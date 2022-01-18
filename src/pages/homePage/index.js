@@ -3,7 +3,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import bookmg from "../../assets/image/bookmg.png";
 import tarh1 from "../../assets/image/tarh1.png";
 import Button from "../../components/button";
+import {routes} from "../../routing/routes";
 function HomePage() {
+    const { fal } = routes;
 
     return (
         <div className="main">
@@ -28,7 +30,7 @@ function HomePage() {
                         <div style={{margin :'37px 0 0 0'}}>
                             <Button  Classname="yellow" text="گنجینه اشعار" 
                             />
-                             <Button  Classname="yellow" text="فال حافظ" 
+                             <Button  Classname="yellow" text="فال حافظ"  onClick={()=> window.open(fal, "_blank")}
                             />
                         </div>
                         
