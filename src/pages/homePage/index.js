@@ -2,6 +2,7 @@ import styles from "./homePage.module.css"
 import 'bootstrap/dist/css/bootstrap.css';
 import bookmg from "../../assets/image/bookmg.png";
 import tarh1 from "../../assets/image/tarh1.png";
+import Button from "../../components/button";
 function HomePage() {
 
     return (
@@ -9,14 +10,8 @@ function HomePage() {
         <div className={styles.container}>
             <div  style={{padding:" 0 70px"}}>
                 <div style={{height : '100px'}}></div>
-                {/* <div className={styles.header}>
-                    {/* <Link to="/#">
-                        {/* <img src={logo} alt="لوگوی هزار شعر" /> 
-                    </Link>
-                    <Navbar />
-                </div> */}
                 <div className={styles.img_right}>
-<img  src={bookmg}/>
+                 <img  src={bookmg}/>
                 </div>
                 <div className={styles.text_right}>
                 <p>
@@ -30,6 +25,13 @@ function HomePage() {
                             نیشابوری همه و همه همچون مرهمی بر زخم های کوچک و
                             بزرگش تسکین داده اند.
                         </p>
+                        <div style={{margin :'37px 0 0 0'}}>
+                            <Button  Classname="yellow" text="گنجینه اشعار" 
+                            />
+                             <Button  Classname="yellow" text="فال حافظ" 
+                            />
+                        </div>
+                        
                 </div>
                 <div>
                     <img  src={tarh1} className={styles.vector}/>
@@ -37,30 +39,7 @@ function HomePage() {
                 <div>
 
                 </div>
-                <div className={styles.section}>
-                    {/* <img src={gathering} alt="نقاشی" /> */}
-                    <div className={styles.description}>
-
-                        <div>
-                            {/* <Button
-                                type="primary"
-                                title="فال حافظ"
-                                onClick={() => {
-                                    navigate(faal);
-                                }}
-                            />
-                            <Button
-                                type="primary"
-                                title="گنجینه اشعار"
-                                onClick={() => {
-                                    navigate(ganjineh);
-                                }}
-                            /> */}
-                        </div>
-                    </div>
-                </div>
             </div>
-            {/* <img className={styles.blocks} src={blocks} alt="طرح مشبک" /> */}
         </div>
         </div>
     );
