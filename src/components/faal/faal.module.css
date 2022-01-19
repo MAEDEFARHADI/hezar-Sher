@@ -15,7 +15,7 @@
     justify-content: center;
 }
 
-.poemContainer {
+.poemContainer , .container>div {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -34,7 +34,7 @@
     font-weight: 200;
 }
 
-.interpretationContainer {
+.tafsirMain {
     margin-top: 15px;
     padding-top: 25px;
     padding-bottom: 25px;
@@ -48,7 +48,7 @@
     padding-right: 7%;
     box-sizing: border-box;
 }
-.interpretation {
+.tafsir {
     padding-right: 30px;
     padding-left: 30px;
     font-size: 16px;

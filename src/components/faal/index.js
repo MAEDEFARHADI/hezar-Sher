@@ -1,26 +1,33 @@
 import{routes} from "../../routing/routes";
-import styles from "./faal.module.css";
 import Button from "../button";
+import Sher from "../sher";
+import styles from "./faal.module.css";
 
 
 function Faal(props)
 {
-    const { home } = routes;
+    const { title, dobeyti, voice, tafsir } =
+        props;
+            const { home } = routes;
 
     return (
         <div className={styles.container}>
-                    <div className={styles.sher}>
+                     <div className={styles.dobeyti}>
+                         <Sher title={title} dobeyti={dobeyti} />
+                         <audio src={voice} controls></audio>
 
                     </div>
-                    <div className={styles.tafsir}>
+                    <div className={styles.tafsirMain}>
                         <p className={styles.title}>ای صاحب فال:</p>
-    
+                        <p className={styles.tafsir}>
+                            {tafsir}
+                        </p>
                     </div>
                     <Button
                         text="بازگشت به صفحه اصلی"
-                        Classname="back-btn"
-                        onClick={()=> window.open(home, "_self")}
-                        />
+                        Classname = "back-btn" 
+                        onClick={()=> window.open(home, "_self")}                        
+                    />
         </div>
     );
 }

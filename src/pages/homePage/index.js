@@ -30,7 +30,7 @@ function HomePage() {
                         <div style={{margin :'37px 0 0 0'}}>
                             <Button  Classname="yellow" text="گنجینه اشعار" 
                             />
-                             <Button  Classname="yellow" text="فال حافظ"  onClick={()=> window.open(fal, "_blank")}
+                             <Button  Classname="yellow" text="فال حافظ"  onClick={()=> window.open(fal, "_self")}
                             />
                         </div>
                         
