@@ -1,0 +1,54 @@
+.main 
+{
+    background: url("/src/assets/image/tarh1\ \(1\).png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.imgTop{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.sherBox {
+    
+}
+.leftBox {
+    padding: 2%;
+    position: absolute;
+    /* width: 100%; */
+    width: 66%;
+    left: 0;
+    top: 20%;
+    bottom: 14%;
+    /* padding: 20px; */
+    width: 56%;
+    height: 65%;
+    background: #F5D36F;
+    border: 1px solid #F4BB13;
+    padding: 83px;
+}
+.leftBox .shaerImage{
+    position: absolute;
+    top: 27px;
+    right: 52px;
+}
+.rightbox {
+    background: rgba(208, 227, 245, 0.5);
+    border: 1px solid #99C4EF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 47%;
+    right: 0;
+    z-index: -1;
+    padding: 42px;
+    padding-left: 69px;
+    line-height: 27px;
+    height: 50%;
+    bottom: 20%;
+}
+.refreshBtn {
+    bottom: 23px;
+    position: absolute;
+    right: 23px;
+    cursor: pointer;
+}

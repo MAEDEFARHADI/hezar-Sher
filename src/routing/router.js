@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import HomePage from "../pages/homePage";
 import Fal from "../pages/fal";
 import Ganjine from "../pages/ganjine";
+import Shaer from "../pages/shaer";
 function Router() {
     const { id } = useParams();
     const {fal , home , ganjine , shaer} = routes;
@@ -14,7 +15,7 @@ function Router() {
             <Route exact path={home} element={<HomePage />} />
             <Route path={fal} element={<Fal />} />
             <Route path={ganjine} element={<Ganjine />} />
-            <Route path={`${shaer}/:id`} element={<Ganjine />} />
+            <Route path={`${shaer}/:id`} element={<Shaer />} />
 
         </Routes>
     </BrowserRouter>  
