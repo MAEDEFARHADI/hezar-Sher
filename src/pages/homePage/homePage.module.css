@@ -37,6 +37,10 @@
         padding: 37px;
         font-size: 17px;
     }
+    .text_right p {
+        text-align: revert;
+        line-height: 30px;
+    }
     .vector 
     {
         position: absolute;

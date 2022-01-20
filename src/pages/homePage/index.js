@@ -4,12 +4,16 @@ import bookmg from "../../assets/image/bookmg.png";
 import tarh1 from "../../assets/image/tarh1.png";
 import Button from "../../components/button";
 import {routes} from "../../routing/routes";
+import Menu from "../../components/menu";
 function HomePage() {
     const { fal , ganjine } = routes;
 
     return (
         <div className="main">
         <div className={styles.container}>
+            <div>
+                <Menu />
+            </div>
             <div  style={{padding:" 0 70px"}}>
                 <div style={{height : '100px'}}></div>
                 <div className={styles.img_right}>

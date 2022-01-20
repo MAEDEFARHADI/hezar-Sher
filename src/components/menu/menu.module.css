@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container a {
+    margin: 00 78px;
+    color: black;
+    font-size: 17px;
+}
