@@ -5,7 +5,7 @@ import tarh1 from "../../assets/image/tarh1.png";
 import Button from "../../components/button";
 import {routes} from "../../routing/routes";
 function HomePage() {
-    const { fal } = routes;
+    const { fal , ganjine } = routes;
 
     return (
         <div className="main">
@@ -28,7 +28,7 @@ function HomePage() {
                             بزرگش تسکین داده اند.
                         </p>
                         <div style={{margin :'37px 0 0 0'}}>
-                            <Button  Classname="yellow" text="گنجینه اشعار" 
+                            <Button  Classname="yellow" text="گنجینه اشعار" onClick={()=>window.open( ganjine , "_self")}
                             />
                              <Button  Classname="yellow" text="فال حافظ"  onClick={()=> window.open(fal, "_self")}
                             />

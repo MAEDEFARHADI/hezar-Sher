@@ -14,5 +14,40 @@ body {
 
 p , a , h1 ,h2,h3,h4,h5 , span , div , button , input {
   font-family: rezvan;
+  color: black;
 
 }
+a{
+  text-decoration: none !important;
+}
+.slick-slide img {
+  margin: auto;}
+.boxCarousel_container__1ux92 {
+  display: grid !important;
+  height: 260px !important;
+}
+.slick-slide>div {
+  width: 187px !important;
+  margin: 0 42px;
+}
+.slick-slide {
+  width: auto !important;
+}
+.slick-list {
+
+  margin: 0 0 0 11% !important;}
+  .slick-prev:before, .slick-next:before{
+    font-size: 40px !important;
+    color: #6788BE !important;
+  }
+  .slick-next , .slick-prev{
+    top: 80% !important;
+
+  }
+  .slick-prev {
+    left: 1% !important;
+  }
+  .slick-next {
+    left: 5% !important;
+    right: auto !important;
+  }

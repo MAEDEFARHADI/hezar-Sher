@@ -1,4 +1,7 @@
 export const routes = {
     home: "/",
-    fal : "/fal"
+    fal : "/fal",
+    ganjine : "/ganjine",
+    shaer: "/shaer",
+
 };

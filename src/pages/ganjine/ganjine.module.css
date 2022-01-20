@@ -1,0 +1,43 @@
+.main 
+{
+    background: url("/src/assets/image/tarh1\ \(1\).png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.leftImage 
+{
+    position: absolute;
+    left: 0;
+    top: 16%;
+    width: 56%;
+    height: 65%;
+    background: #F5D36F;
+    border: 1px solid #F4BB13;
+    box-sizing: border-box;
+}
+.leftImage img{
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.rightImg 
+{
+    background: rgba(208, 227, 245, 0.5);
+    border: 1px solid #99C4EF;
+    box-sizing: border-box;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 27%;
+    right: 0;
+    z-index: -1;
+}
+.rowCarousel
+{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    bottom: 0;    z-index: 3;
+}
