@@ -8,3 +8,11 @@
     color: black;
     font-size: 17px;
 }
+@media (max-width:780px) {
+    .container a{
+        margin: 0 20px !important;
+    }
+    .container{
+        padding-right: 0;
+    }
+}
