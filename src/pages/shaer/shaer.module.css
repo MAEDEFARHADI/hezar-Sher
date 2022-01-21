@@ -16,7 +16,6 @@
     padding: 2%;
     position: absolute;
     /* width: 100%; */
-    width: 66%;
     left: 0;
     top: 20%;
     bottom: 14%;
@@ -51,4 +50,29 @@
     position: absolute;
     right: 23px;
     cursor: pointer;
+}
+@media (max-width:780px){
+    .leftBox {
+        width: 100%;
+        padding: 10px;
+        position: relative;
+    }
+    .sherBox {
+    padding: 20px;
+}
+.rightbox{
+    position: relative;
+    margin: 20px 0;
+    width: 100%;
+}
+.main {
+    height: 100%;
+}
+.shaerImage {
+    
+    top: -6px !important;
+    right: 0px !important;
+    width: 40px;
+
+}
 }
