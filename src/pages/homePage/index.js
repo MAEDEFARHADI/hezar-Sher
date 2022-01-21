@@ -14,7 +14,7 @@ function HomePage() {
             <div>
                 <Menu />
             </div>
-            <div  style={{padding:" 0 70px"}}>
+            <div  style={{padding:" 0 70px"}} className={styles.content}>
                 <div style={{height : '100px'}}></div>
                 <div className={styles.img_right}>
                  <img  src={bookmg}/>
@@ -39,7 +39,7 @@ function HomePage() {
                         </div>
                         
                 </div>
-                <div>
+                <div className={styles.vectorDiv}>
                     <img  src={tarh1} className={styles.vector}/>
                 </div>
                 <div>

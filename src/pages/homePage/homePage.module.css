@@ -48,3 +48,32 @@
         left: 0;
         height: 100%;
     }
+    @media (max-width:780px) {
+        .text_right {
+            width: auto !important;
+    
+        }
+        .text_right , .img_right{
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            float: none;
+        }
+        .content {
+            display: initial;
+        }
+        .container{
+            height: 100%;
+        }
+        .vector {
+            display: none;
+        }
+        .vectorDiv {
+            background: url("../../assets//image//tarh1\ \(1\).png");
+            position: fixed;
+            top: 0;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
+    }
