@@ -12,3 +12,8 @@
     background: url('../../assets/image/backFal.png') no-repeat;
     background-size: cover;
 }
+@media (max-width:780px){
+    audio {
+        width: 100%;
+    }
+}
