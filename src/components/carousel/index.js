@@ -9,12 +9,21 @@ function Carousel(props) {
         arrows: true,
         slidesToShow: 5,
         slidesToScroll: 1,
+
         centerMode: true,
-        focusOnSelect: true
+        focusOnSelect: true ,
+        responsive: [{
+            breakpoint: 780,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              initialSlide: 1
+            }
+          }]
       };
     return(
         
-<Slider {...settings}>
+<Slider {...settings} >
 {ashaar.map((poet) => {
                             const { id, name, image } = poet;
                             return (

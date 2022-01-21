@@ -26,13 +26,8 @@ a{
   display: grid !important;
   height: 260px !important;
 }
-.slick-slide>div {
-  width: 187px !important;
-  margin: 0 42px;
-}
-.slick-slide {
-  width: auto !important;
-}
+
+
 .slick-list {
 
   margin: 0 0 0 11% !important;}
@@ -48,6 +43,27 @@ a{
     left: 1% !important;
   }
   .slick-next {
-    left: 5% !important;
+    left: 5%;
     right: auto !important;
+  }
+  .slick-slide>div {
+    margin: 0 10px;
+  }
+  @media (min-width:780px){
+    .slick-slide {
+      width: auto !important;
+    }
+    .slick-slide>div {
+      width: 187px !important;
+      margin: 0 42px !important;
+    }
+  }
+  @media (max-width:780px) {
+    .slick-next , .slick-prev {
+  bottom: -18%;
+  top: auto !important;
+}
+.slick-next{
+  left: 20% !important;
+}
   }
