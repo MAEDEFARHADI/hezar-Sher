@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import hafezPoems from "../assets/hafez/hafez.json";
-function GetFaalApi() {
+function GetAshaarApi() {
     const [ashaar, setashaar] = useState([]);
     useEffect(() => {
         axios.get("https://ganjgah.ir/api/ganjoor/poets").then(({ data }) => {
@@ -23,4 +23,4 @@ function GetFaalApi() {
     return { ashaar };
 }
 
-export default GetFaalApi;
+export default GetAshaarApi;
